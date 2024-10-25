@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: மேலும் இது மனிதனின் கவலை
 
-n: _YOU_ ARE THE ANXIETY
+n: _நீ_ தான் கவலை
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: ஏய்! நாங்கள் மீண்டும் இங்கு வந்துவிட்டோமா?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: உங்கள் மனிதனை பாதுகாப்பதே உங்கள் பணி *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: உண்மையில், இந்த விளையாட்டை மீண்டும் விளையாடுவது அவர்களை உள்ளே வைப்பதாகும் *DANGER* இப்போது
 
-n: QUICK, WARN THEM!
+n: சீக்கிரம், அவர்களை எச்சரிக்கவும்!
 
 ```
 sfx("squeak");
