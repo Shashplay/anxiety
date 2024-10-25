@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: மனிதனே! கேளுங்கள், நாங்கள் ஆபத்தில் இருக்கிறோம்! வீரர்...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[... மீண்டும் நம்மை சித்திரவதை செய்யும்!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[... மாற்று முடிவைக் காண முடியாது!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[... ludonarative dissonance கிடைக்கும்!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: அவர்கள் நம்மை ஒரு பந்தாக சுருட்டி அழ வைப்பார்கள்!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: உங்களுக்கு பீதியை ஏற்படுத்தியதற்காக அவர்கள் உங்கள் மொபைலைக் கொல்லச் செய்வார்கள்!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: அவர்கள் எங்களை விருந்து நடத்துபவரை குத்தாதபடி செய்வார்கள்!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: அவர்கள் நம்மை அனுதாபமுள்ள வில்லன் எதிர்ப்பு விருந்து நடத்துபவரை குத்த வைப்பார்கள்!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: குறைந்தபட்சம் நாம் இந்த கூரையிலிருந்து குதிக்காமல் இருக்கலாம் -
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: அவர்கள் எங்களை கூரையில் இருந்து குதிக்கச் செய்வார்கள்.
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: இந்த புதிய பயங்கரமான விஷயங்கள் அனைத்தும் நமக்கு நடக்கும், பிறகு நாம்--
 
 (#act1_replay_end)
 
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: நிச்சயமாக, *கதை முழுவதும்* ஒரே மாதிரியாக உள்ளது, ஆனால் ஒவ்வொரு அத்தியாயத்திற்கும் இரண்டு சாத்தியமான முடிவுகளும், அனைத்து கிளை உரையாடல்களும் உள்ளன--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: பிளேயர் ஏமாற்றமடைவார், இந்த உலாவி தாவலை மூடவும், எங்கள் மென்பொருளை நீக்கவும், பின்னர் நாங்கள்--
 
 (#act1_replay_end)
 
@@ -112,27 +112,27 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: ஒரு அநாகரிகம் - இப்போது என்ன?
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: உங்கள் பயத்துடன் ஆரோக்கியமான ஒத்துழைப்பை உருவாக்க நீங்கள் எப்படி *can choose* என்பது பற்றிய கதை வளைவு,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: ஆனால் விளையாட்டை மீண்டும் விளையாடுவது அதே கதையைத் தரும், உங்கள் *தேர்வுகள்* ஒரு பொருட்டல்ல,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: இவ்வாறு விளையாட்டின் செய்திக்கும் இயக்கவியலுக்கும் இடையே ஒரு முரண்பாட்டைக் காட்டுகிறது,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: இவ்வாறு இந்த கதை பிரபஞ்சத்தின் துணியை அவிழ்த்து,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: பின்னர் நாம் --
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: டீஈஈஈஈஈஈஈஈஈஈஈ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: சரி திரும்பவும் கேரக்டருக்கு வருவோம்.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (உங்கள்_ கவலை ப்ளா ப்ளா ப்ளாஹ் மிகவும் ஒத்ததாக இருக்கட்டும் _உங்கள்_ பயம் ப்ளா ப்ளா ட்ரில் உங்களுக்குத் தெரியும்)
 
 ```
 sfx("squeak");
@@ -186,7 +186,7 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: ஓ, என் ஓநாய் திரும்பி வந்துவிட்டது. விசித்திரமான
 
 `hong({eyes:"0_neutral"})`
 
