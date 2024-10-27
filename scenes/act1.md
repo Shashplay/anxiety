@@ -190,13 +190,13 @@ h: ஓ, என் ஓநாய் திரும்பி வந்துவி
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: உங்கள் மனிதனை *ஆபத்தில்* இருந்து பாதுகாப்பதே உங்கள் பணி
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: உண்மையில், அந்த சாண்ட்விச் இப்போது அவர்களை *ஆபத்தில்* தள்ளுகிறது
 
-n: QUICK, WARN THEM!
+n: சீக்கிரம், அவர்களை எச்சரிக்கவும்!
 
 ```
 sfx("squeak");
