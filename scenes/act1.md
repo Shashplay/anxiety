@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: மனிதனே! கேளுங்கள், நாங்கள் ஆபத்தில் இருக்கிறோம்! ஆபத்து என்னவென்றால்...
 
 `bb({body:"squeeze"})`
 
-n4: (LET _YOUR_ ANXIETY COME OUT TO PLAY! PICK WHAT'S MOST SIMILAR TO WHAT _YOUR_ FEAR TELLS YOU)
+n4: (_உங்கள்_ கவலை விளையாடுவதற்கு வெளியே வரட்டும்! எது மிகவும் ஒத்ததாக இருக்கிறது என்பதைத் தேர்ந்தெடுங்கள் _உங்கள்_பயம் உங்களுக்குச் சொல்லும்)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[We're eating alone for lunch! Again!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[நாங்கள் மதிய உணவிற்கு தனியாக சாப்பிடுகிறோம்! மீண்டும்!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[We're not productive while eating!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[சாப்பிடும் போது நாம் உற்பத்தி செய்யவில்லை!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[That white bread's bad for us!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[அந்த வெள்ளை ரொட்டி எங்களுக்கு மோசமானது!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: ஒரு நாளைக்கு 15 சிகரெட்டுகளை புகைப்பது போல தனிமையும் அகால மரணத்துடன் தொடர்புடையது என்பது உங்களுக்குத் தெரியாதா?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,17 +237,17 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: உம், உங்கள் ஆதாரங்களை மேற்கோள் காட்டியதற்கு நன்றி ஆனால்--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if we don't hang out with someone *right now* we're gonna-
+b: அதாவது நாம் யாருடனும் *இப்போது* ஹேங்அவுட் செய்யவில்லை என்றால்-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: டீஈஈஈஈஈஈஈஈஈஈஈ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: YOU USED *FEAR OF BEING UNLOVED*
+n: நீங்கள் பயன்படுத்தினீர்கள் *அன்பற்றவர்களாக இருப்பீர்கள் என்ற பயம்*
 
 (#act1b)
 
@@ -271,11 +271,11 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Whip out your laptop and do some work right now!
+b: உங்கள் மடிக்கணினியை அகற்றிவிட்டு இப்போதே சில வேலைகளைச் செய்யுங்கள்!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, I'd rather not get crumbs in my keyboa--
+h: ம்ம், என் கீபோவாவில் நொறுக்குத் தீனிகள் கிடைக்காமல் இருக்க விரும்புகிறேன்--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
