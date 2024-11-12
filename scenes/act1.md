@@ -282,9 +282,9 @@ bb({mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: If we're not contributing to the body of society then we're a society-parasite!
+b: சமூகத்தின் உடலுக்கு நாம் பங்களிக்கவில்லை என்றால், நாம் ஒரு சமூகம்-ஒட்டுண்ணி!
 
-b: The society-body will go to the society-doctor for medication to kill their society-parasites then we'll--
+b: சமூகம்-ஒட்டுண்ணிகளைக் கொல்ல மருந்துக்காக சமூகம்-மருத்துவரிடம் செல்லும், பிறகு நாம்--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
